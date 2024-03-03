@@ -1,0 +1,136 @@
+keyboards:
+  - name: name-slot
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: "1"
+            width: available
+          - action:
+              character:
+                char: "2"
+            width: available
+          - action:
+              character:
+                char: "3"
+            width: available
+          - action:
+              character:
+                char: "4"
+            width: available
+          - action:
+              character:
+                char: "5"
+            width: available
+          - action:
+              character:
+                char: "6"
+            width: available
+          - action:
+              character:
+                char: "7"
+            width: available
+          - action:
+              character:
+                char: "8"
+            width: available
+          - action:
+              character:
+                char: "9"
+            width: available
+          - action:
+              character:
+                char: "0"
+            width: available
+      - keys:
+          - action:
+              character:
+                char: ":"
+            width: available
+          - action:
+              character:
+                char: ؛
+            width: available
+          - action:
+              character:
+                char: (
+            width: available
+          - action:
+              character:
+                char: )
+            width: available
+          - action:
+              character:
+                char: 《
+            width: available
+          - action:
+              character:
+                char: 》
+            width: available
+          - action:
+              character:
+                char: ‘
+            width: available
+          - action:
+              character:
+                char: ’
+            width: available
+          - action:
+              character:
+                char: “
+            width: available
+          - action:
+              character:
+                char: ”
+            width: available
+      - keys:
+          - action:
+              keyboardType: classifySymbolic
+            width:
+              percentage: 0.13
+          - action: none
+            width:
+              percentage: 0.02
+          - action:
+              character:
+                char: 。
+            width: available
+          - action:
+              character:
+                char: ،
+            width: available
+          - action:
+              character:
+                char: ؟
+            width: available
+          - action:
+              character:
+                char: "!"
+            width: available
+          - action:
+              character:
+                char: ¥
+            width: available
+          - action: none
+            width:
+              percentage: 0.02
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType: keyboard-slot
+            width: available
+            label: keyboard-slot-label
+          - action: space
+            width:
+              percentage: 0.5
+            label: _
+          - action: enter
+            width: available
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3

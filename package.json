@@ -1,0 +1,12 @@
+{
+  "name": "hapin-for-hamster",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:ha-pin/hapin-for-hamster.git",
+  "author": "HerbertHe <Herbert.He0229@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "keyboards": "node ./scripts/keyboards.js"
+  }
+}

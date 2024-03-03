@@ -1,0 +1,304 @@
+keyboards:
+  - name: name-slot
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: қ
+            width: available
+            label: q
+          - action:
+              character:
+                char: у
+            width: available
+            label: w
+            swipe:
+              - action:
+                  character:
+                    char: ю
+                label: yw
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: ы
+            width: available
+            label: e
+            swipe:
+              - action:
+                  character:
+                    char: і
+                label: xe
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: р
+            width: available
+            label: r
+          - action:
+              character:
+                char: т
+            width: available
+            label: t
+          - action:
+              character:
+                char: е
+            width: available
+            label: ye
+            swipe:
+              - action:
+                  character:
+                    char: э
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: ұ
+            width: available
+            label: u
+            swipe:
+              - action:
+                  character:
+                    char: ү
+                label: xu
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: й
+            width: available
+            label: i
+            swipe:
+              - action:
+                  character:
+                    char: и
+                label: yi
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: о
+            width: available
+            label: o
+            swipe:
+              - action:
+                  character:
+                    char: ө
+                label: xo
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: ё
+                label: yo
+                display: true
+                processByRIME: true
+                direction: down
+          - action:
+              character:
+                char: п
+            width: available
+            label: p
+      - keys:
+          - action: none
+            width:
+              percentage: 0.05
+          - action:
+              character:
+                char: а
+            width: available
+            label: a
+            swipe:
+              - action:
+                  character:
+                    char: ә
+                label: xa
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: я
+                label: ya
+                display: true
+                processByRIME: true
+                direction: down
+          - action:
+              character:
+                char: с
+            width: available
+            label: s
+            swipe:
+              - action:
+                  character:
+                    char: ш
+                label: sh
+                display: true
+                processByRIME: true
+                direction: up
+              - action:
+                  character:
+                    char: щ
+                label: shsh
+                display: true
+                processByRIME: true
+                direction: down
+          - action:
+              character:
+                char: д
+            width: available
+            label: d
+          - action:
+              character:
+                char: ф
+            width: available
+            label: f
+          - action:
+              character:
+                char: г
+            width: available
+            label: g
+            swipe:
+              - action:
+                  character:
+                    char: ғ
+                label: gh
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: х
+            width: available
+            label: h
+            swipe:
+              - action:
+                  character:
+                    char: һ
+                label: hh
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: ж
+            width: available
+            label: j
+          - action:
+              character:
+                char: к
+            width: available
+            label: k
+          - action:
+              character:
+                char: л
+            width: available
+            label: l
+          - action: none
+            width:
+              percentage: 0.05
+      - keys:
+          - action:
+              keyboardType: keyboard-slot
+            width:
+              percentage: 0.13
+            label: keyboard-slot-label
+          - action: none
+            width:
+              percentage: 0.02
+          - action:
+              character:
+                char: з
+            width: available
+            label: z
+          - action:
+              character:
+                char: ъ
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: ь
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: ц
+            width: available
+            label: c
+            swipe:
+              - action:
+                  character:
+                    char: ч
+                label: ch
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: в
+            width: available
+            label: v
+          - action:
+              character:
+                char: б
+            width: available
+            label: b
+          - action:
+              character:
+                char: н
+            width: available
+            label: n
+            swipe:
+              - action:
+                  character:
+                    char: ң
+                label: ng
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: м
+            width: available
+            label: m
+          - action: none
+            width:
+              percentage: 0.02
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType: keyboard-slot
+            width:
+              percentage: 0.2
+            label: keyboard-slot-label
+          - action:
+              keyboardType: emojis
+            width: available
+          - action: space
+            width:
+              percentage: 0.4
+            label: _
+          - action:
+              keyboardType: keyboard-slot
+            width: available
+            label: keyboard-slot-label
+          - action: enter
+            width:
+              percentage: 0.2
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3

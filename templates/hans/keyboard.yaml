@@ -1,0 +1,153 @@
+keyboards:
+  - name: name-slot
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: q
+            width: available
+          - action:
+              character:
+                char: w
+            width: available
+          - action:
+              character:
+                char: e
+            width: available
+          - action:
+              character:
+                char: r
+            width: available
+          - action:
+              character:
+                char: t
+            width: available
+          - action:
+              character:
+                char: y
+            width: available
+          - action:
+              character:
+                char: u
+            width: available
+          - action:
+              character:
+                char: i
+            width: available
+          - action:
+              character:
+                char: o
+            width: available
+          - action:
+              character:
+                char: p
+            width: available
+      - keys:
+          - action: none
+            width:
+              percentage: 0.05
+          - action:
+              character:
+                char: a
+            width: available
+          - action:
+              character:
+                char: s
+            width: available
+          - action:
+              character:
+                char: d
+            width: available
+          - action:
+              character:
+                char: f
+            width: available
+          - action:
+              character:
+                char: g
+            width: available
+          - action:
+              character:
+                char: h
+            width: available
+          - action:
+              character:
+                char: j
+            width: available
+          - action:
+              character:
+                char: k
+            width: available
+          - action:
+              character:
+                char: l
+            width: available
+          - action: none
+            width:
+              percentage: 0.05
+      - keys:
+          - action:
+              keyboardType: keyboard-slot
+            width:
+              percentage: 0.13
+            label: keyboard-slot-label
+          - action: none
+            width:
+              percentage: 0.02
+          - action:
+              character:
+                char: z
+            width: available
+          - action:
+              character:
+                char: x
+            width: available
+          - action:
+              character:
+                char: c
+            width: available
+          - action:
+              character:
+                char: v
+            width: available
+          - action:
+              character:
+                char: b
+            width: available
+          - action:
+              character:
+                char: n
+            width: available
+          - action:
+              character:
+                char: m
+            width: available
+          - action: none
+            width:
+              percentage: 0.02
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType: numericNineGrid
+            width:
+              percentage: 0.2
+          - action:
+              keyboardType: emojis
+            width: available
+          - action: space
+            width:
+              percentage: 0.4
+          - action:
+              keyboardType: alphabetic
+            width: available
+          - action: enter
+            width:
+              percentage: 0.2
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3

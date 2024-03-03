@@ -1,0 +1,184 @@
+keyboards:
+  - name: name-slot
+    isPrimary: true
+    rows:
+      - keys:
+          - action:
+              character:
+                char: ق
+            width: available
+          - action:
+              character:
+                char: ۋ
+            width: available
+          - action:
+              character:
+                char: ى
+            width: available
+          - action:
+              character:
+                char: ر
+            width: available
+          - action:
+              character:
+                char: ت
+            width: available
+          - action:
+              character:
+                char: ە
+            width: available
+          - action:
+              character:
+                char: ۇ
+            width: available
+          - action:
+              character:
+                char: ي
+            width: available
+          - action:
+              character:
+                char: و
+            width: available
+          - action:
+              character:
+                char: پ
+            width: available
+      - keys:
+          - action: none
+            width:
+              percentage: 0.05
+          - action:
+              character:
+                char: ا
+            width: available
+          - action:
+              character:
+                char: س
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: ش
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: د
+            width: available
+          - action:
+              character:
+                char: ف
+            width: available
+          - action:
+              character:
+                char: گ
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: ع
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: ح
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: ھ
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: ج
+            width: available
+          - action:
+              character:
+                char: ك
+            width: available
+          - action:
+              character:
+                char: ل
+            width: available
+          - action: none
+            width:
+              percentage: 0.05
+      - keys:
+          - action:
+              keyboardType: keyboard-slot
+            width:
+              percentage: 0.13
+            label: keyboard-slot-label
+          - action: none
+            width:
+              percentage: 0.02
+          - action:
+              character:
+                char: ز
+            width: available
+          - action:
+              character:
+                char: ء
+            width: available
+          - action:
+              character:
+                char: چ
+            width: available
+          - action:
+              character:
+                char: ۆ
+            width: available
+          - action:
+              character:
+                char: ب
+            width: available
+          - action:
+              character:
+                char: ن
+            width: available
+            swipe:
+              - action:
+                  character:
+                    char: ڭ
+                display: true
+                processByRIME: true
+                direction: up
+          - action:
+              character:
+                char: م
+            width: available
+          - action: none
+            width:
+              percentage: 0.02
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType: keyboard-slot
+            width:
+              percentage: 0.2
+            label: keyboard-slot-label
+          - action:
+              keyboardType: emojis
+            width: available
+          - action: space
+            width:
+              percentage: 0.4
+            label: _
+          - action:
+              keyboardType: keyboard-slot
+            width: available
+            label: keyboard-slot-label
+          - action: enter
+            width:
+              percentage: 0.2
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
