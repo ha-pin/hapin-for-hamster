@@ -25,12 +25,9 @@ jobs:
         run: |
           npm run keyboards
 
-      - name: "Jekyll theme"
-        run: mv ./.temp/_config.yml ./keyboards/_config.yml
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./keyboards
-          enable_jekyll: true
+          enable_jekyll: false
