@@ -1,188 +1,5 @@
 keyboards:
-  - name: 哈拼老文字键盘
-    isPrimary: true
-    rows:
-      - keys:
-          - action:
-              character:
-                char: ق
-            width: available
-          - action:
-              character:
-                char: ۋ
-            width: available
-          - action:
-              character:
-                char: ى
-            width: available
-          - action:
-              character:
-                char: ر
-            width: available
-          - action:
-              character:
-                char: ت
-            width: available
-          - action:
-              character:
-                char: ە
-            width: available
-          - action:
-              character:
-                char: ۇ
-            width: available
-          - action:
-              character:
-                char: ي
-            width: available
-          - action:
-              character:
-                char: و
-            width: available
-          - action:
-              character:
-                char: پ
-            width: available
-      - keys:
-          - action: none
-            width:
-              percentage: 0.05
-          - action:
-              character:
-                char: ا
-            width: available
-          - action:
-              character:
-                char: س
-            width: available
-            swipe:
-              - action:
-                  character:
-                    char: ش
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: د
-            width: available
-          - action:
-              character:
-                char: ف
-            width: available
-          - action:
-              character:
-                char: گ
-            width: available
-            swipe:
-              - action:
-                  character:
-                    char: ع
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: ح
-            width: available
-            swipe:
-              - action:
-                  character:
-                    char: ھ
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: ج
-            width: available
-          - action:
-              character:
-                char: ك
-            width: available
-          - action:
-              character:
-                char: ل
-            width: available
-          - action: none
-            width:
-              percentage: 0.05
-      - keys:
-          - action:
-              keyboardType: 哈拼西里尔键盘
-            width:
-              percentage: 0.13
-            label: Қа
-          - action: none
-            width:
-              percentage: 0.02
-          - action:
-              character:
-                char: ز
-            width: available
-          - action:
-              character:
-                char: ء
-            width: available
-          - action:
-              character:
-                char: چ
-            width: available
-          - action:
-              character:
-                char: ۆ
-            width: available
-          - action:
-              character:
-                char: ب
-            width: available
-          - action:
-              character:
-                char: ن
-            width: available
-            swipe:
-              - action:
-                  character:
-                    char: ڭ
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: م
-            width: available
-          - action: none
-            width:
-              percentage: 0.02
-          - action: backspace
-            width:
-              percentage: 0.13
-      - keys:
-          - action:
-              keyboardType: 哈拼老文字数字符号键盘
-            width:
-              percentage: 0.2
-            label: "#+="
-          - action:
-              keyboardType: emojis
-            width: available
-          - action: space
-            width:
-              percentage: 0.4
-            label: _
-          - action:
-              keyboardType: 哈拼老文字Qwerty键盘
-            width: available
-            label: Qa
-          - action: enter
-            width:
-              percentage: 0.2
-    buttonInsets:
-      left: 3
-      bottom: 4
-      top: 8
-      right: 3
-  - name: 哈拼西里尔键盘
+  - name: 哈拼国语西里尔直打键盘
     isPrimary: false
     rows:
       - keys:
@@ -359,10 +176,10 @@ keyboards:
               percentage: 0.05
       - keys:
           - action:
-              keyboardType: 哈拼老文字键盘
+              keyboardType: 哈拼国语西里尔键盘
             width:
               percentage: 0.13
-            label: قا
+            label: 国语
           - action: none
             width:
               percentage: 0.02
@@ -423,7 +240,7 @@ keyboards:
               percentage: 0.13
       - keys:
           - action:
-              keyboardType: 哈拼西里尔数字符号键盘
+              keyboardType: 哈拼国语西里尔数字符号直打键盘
             width:
               percentage: 0.2
             label: "#+="
@@ -435,7 +252,7 @@ keyboards:
               percentage: 0.4
             label: _
           - action:
-              keyboardType: 哈拼西里尔Qwerty键盘
+              keyboardType: 哈拼国语西里尔Qwerty直打键盘
             width: available
             label: Qa
           - action: enter
@@ -446,220 +263,7 @@ keyboards:
       bottom: 4
       top: 8
       right: 3
-  - name: 哈拼老文字Qwerty键盘
-    isPrimary: true
-    rows:
-      - keys:
-          - action:
-              character:
-                char: ق
-            width: available
-            label: q
-          - action:
-              character:
-                char: ۋ
-            width: available
-            label: w
-          - action:
-              character:
-                char: ى
-            width: available
-            label: e
-          - action:
-              character:
-                char: ر
-            width: available
-            label: r
-          - action:
-              character:
-                char: ت
-            width: available
-            label: t
-          - action:
-              character:
-                char: ە
-            width: available
-            label: ye
-          - action:
-              character:
-                char: ۇ
-            width: available
-            label: u
-          - action:
-              character:
-                char: ي
-            width: available
-            label: i
-          - action:
-              character:
-                char: و
-            width: available
-            label: o
-          - action:
-              character:
-                char: پ
-            width: available
-            label: p
-      - keys:
-          - action: none
-            width:
-              percentage: 0.05
-          - action:
-              character:
-                char: ا
-            width: available
-            label: a
-          - action:
-              character:
-                char: س
-            width: available
-            label: s
-            swipe:
-              - action:
-                  character:
-                    char: ش
-                label: sh
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: د
-            width: available
-            label: d
-          - action:
-              character:
-                char: ف
-            width: available
-            label: f
-          - action:
-              character:
-                char: گ
-            width: available
-            label: g
-            swipe:
-              - action:
-                  character:
-                    char: ع
-                label: gh
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: ح
-            width: available
-            label: h
-            swipe:
-              - action:
-                  character:
-                    char: ھ
-                label: hh
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: ج
-            width: available
-            label: j
-          - action:
-              character:
-                char: ك
-            width: available
-            label: k
-          - action:
-              character:
-                char: ل
-            width: available
-            label: l
-          - action: none
-            width:
-              percentage: 0.05
-      - keys:
-          - action:
-              keyboardType: 哈拼西里尔Qwerty键盘
-            width:
-              percentage: 0.13
-            label: Қа
-          - action: none
-            width:
-              percentage: 0.02
-          - action:
-              character:
-                char: ز
-            width: available
-            label: z
-          - action:
-              character:
-                char: ء
-            width: available
-            label: x
-          - action:
-              character:
-                char: چ
-            width: available
-            label: ch
-          - action:
-              character:
-                char: ۆ
-            width: available
-            label: v
-          - action:
-              character:
-                char: ب
-            width: available
-            label: b
-          - action:
-              character:
-                char: ن
-            width: available
-            label: n
-            swipe:
-              - action:
-                  character:
-                    char: ڭ
-                label: ng
-                display: true
-                processByRIME: true
-                direction: up
-          - action:
-              character:
-                char: م
-            width: available
-            label: m
-          - action: none
-            width:
-              percentage: 0.02
-          - action: backspace
-            width:
-              percentage: 0.13
-      - keys:
-          - action:
-              keyboardType: 哈拼老文字Qwerty数字符号键盘
-            width:
-              percentage: 0.2
-            label: "#+="
-          - action:
-              keyboardType: emojis
-            width: available
-          - action: space
-            width:
-              percentage: 0.4
-            label: _
-          - action:
-              keyboardType: 哈拼老文字键盘
-            width: available
-            label: قا
-          - action: enter
-            width:
-              percentage: 0.2
-    buttonInsets:
-      left: 3
-      bottom: 4
-      top: 8
-      right: 3
-  - name: 哈拼西里尔Qwerty键盘
+  - name: 哈拼国语西里尔Qwerty直打键盘
     isPrimary: false
     rows:
       - keys:
@@ -867,10 +471,10 @@ keyboards:
               percentage: 0.05
       - keys:
           - action:
-              keyboardType: 哈拼老文字Qwerty键盘
+              keyboardType: 哈拼国语西里尔Qwerty键盘
             width:
               percentage: 0.13
-            label: قا
+            label: 国语
           - action: none
             width:
               percentage: 0.02
@@ -939,7 +543,7 @@ keyboards:
               percentage: 0.13
       - keys:
           - action:
-              keyboardType: 哈拼西里尔Qwerty数字符号键盘
+              keyboardType: 哈拼国语西里尔Qwerty数字符号直打键盘
             width:
               percentage: 0.2
             label: "#+="
@@ -951,7 +555,7 @@ keyboards:
               percentage: 0.4
             label: _
           - action:
-              keyboardType: 哈拼西里尔键盘
+              keyboardType: 哈拼国语西里尔直打键盘
             width: available
             label: Қа
           - action: enter
@@ -962,277 +566,7 @@ keyboards:
       bottom: 4
       top: 8
       right: 3
-  - name: 哈拼老文字数字符号键盘
-    isPrimary: false
-    rows:
-      - keys:
-          - action:
-              character:
-                char: "1"
-            width: available
-          - action:
-              character:
-                char: "2"
-            width: available
-          - action:
-              character:
-                char: "3"
-            width: available
-          - action:
-              character:
-                char: "4"
-            width: available
-          - action:
-              character:
-                char: "5"
-            width: available
-          - action:
-              character:
-                char: "6"
-            width: available
-          - action:
-              character:
-                char: "7"
-            width: available
-          - action:
-              character:
-                char: "8"
-            width: available
-          - action:
-              character:
-                char: "9"
-            width: available
-          - action:
-              character:
-                char: "0"
-            width: available
-      - keys:
-          - action:
-              character:
-                char: ":"
-            width: available
-          - action:
-              character:
-                char: ؛
-            width: available
-          - action:
-              character:
-                char: (
-            width: available
-          - action:
-              character:
-                char: )
-            width: available
-          - action:
-              character:
-                char: 《
-            width: available
-          - action:
-              character:
-                char: 》
-            width: available
-          - action:
-              character:
-                char: ‘
-            width: available
-          - action:
-              character:
-                char: ’
-            width: available
-          - action:
-              character:
-                char: “
-            width: available
-          - action:
-              character:
-                char: ”
-            width: available
-      - keys:
-          - action:
-              keyboardType: classifySymbolic
-            width:
-              percentage: 0.13
-          - action: none
-            width:
-              percentage: 0.02
-          - action:
-              character:
-                char: 。
-            width: available
-          - action:
-              character:
-                char: ،
-            width: available
-          - action:
-              character:
-                char: ؟
-            width: available
-          - action:
-              character:
-                char: "!"
-            width: available
-          - action:
-              character:
-                char: ¥
-            width: available
-          - action: none
-            width:
-              percentage: 0.02
-          - action: backspace
-            width:
-              percentage: 0.13
-      - keys:
-          - action:
-              keyboardType: 哈拼老文字键盘
-            width: available
-            label: قا
-          - action: space
-            width:
-              percentage: 0.5
-            label: _
-          - action: enter
-            width: available
-    buttonInsets:
-      left: 3
-      bottom: 4
-      top: 8
-      right: 3
-  - name: 哈拼老文字Qwerty数字符号键盘
-    isPrimary: false
-    rows:
-      - keys:
-          - action:
-              character:
-                char: "1"
-            width: available
-          - action:
-              character:
-                char: "2"
-            width: available
-          - action:
-              character:
-                char: "3"
-            width: available
-          - action:
-              character:
-                char: "4"
-            width: available
-          - action:
-              character:
-                char: "5"
-            width: available
-          - action:
-              character:
-                char: "6"
-            width: available
-          - action:
-              character:
-                char: "7"
-            width: available
-          - action:
-              character:
-                char: "8"
-            width: available
-          - action:
-              character:
-                char: "9"
-            width: available
-          - action:
-              character:
-                char: "0"
-            width: available
-      - keys:
-          - action:
-              character:
-                char: ":"
-            width: available
-          - action:
-              character:
-                char: ؛
-            width: available
-          - action:
-              character:
-                char: (
-            width: available
-          - action:
-              character:
-                char: )
-            width: available
-          - action:
-              character:
-                char: 《
-            width: available
-          - action:
-              character:
-                char: 》
-            width: available
-          - action:
-              character:
-                char: ‘
-            width: available
-          - action:
-              character:
-                char: ’
-            width: available
-          - action:
-              character:
-                char: “
-            width: available
-          - action:
-              character:
-                char: ”
-            width: available
-      - keys:
-          - action:
-              keyboardType: classifySymbolic
-            width:
-              percentage: 0.13
-          - action: none
-            width:
-              percentage: 0.02
-          - action:
-              character:
-                char: 。
-            width: available
-          - action:
-              character:
-                char: ،
-            width: available
-          - action:
-              character:
-                char: ؟
-            width: available
-          - action:
-              character:
-                char: "!"
-            width: available
-          - action:
-              character:
-                char: ¥
-            width: available
-          - action: none
-            width:
-              percentage: 0.02
-          - action: backspace
-            width:
-              percentage: 0.13
-      - keys:
-          - action:
-              keyboardType: 哈拼老文字Qwerty键盘
-            width: available
-            label: Qa
-          - action: space
-            width:
-              percentage: 0.5
-            label: _
-          - action: enter
-            width: available
-    buttonInsets:
-      left: 3
-      bottom: 4
-      top: 8
-      right: 3
-  - name: 哈拼西里尔数字符号键盘
+  - name: 哈拼国语西里尔数字符号直打键盘
     isPrimary: false
     rows:
       - keys:
@@ -1353,7 +687,7 @@ keyboards:
               percentage: 0.13
       - keys:
           - action:
-              keyboardType: 哈拼西里尔键盘
+              keyboardType: 哈拼国语西里尔直打键盘
             width: available
             label: Қa
           - action: space
@@ -1367,7 +701,7 @@ keyboards:
       bottom: 4
       top: 8
       right: 3
-  - name: 哈拼西里尔Qwerty数字符号键盘
+  - name: 哈拼国语西里尔Qwerty数字符号直打键盘
     isPrimary: false
     rows:
       - keys:
@@ -1488,7 +822,7 @@ keyboards:
               percentage: 0.13
       - keys:
           - action:
-              keyboardType: 哈拼西里尔键盘
+              keyboardType: 哈拼国语西里尔Qwerty直打键盘
             width: available
             label: Qa
           - action: space
@@ -1497,6 +831,311 @@ keyboards:
             label: _
           - action: enter
             width: available
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+  - name: 哈拼国语西里尔键盘
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: q
+            width: available
+          - action:
+              character:
+                char: w
+            width: available
+          - action:
+              character:
+                char: e
+            width: available
+          - action:
+              character:
+                char: r
+            width: available
+          - action:
+              character:
+                char: t
+            width: available
+          - action:
+              character:
+                char: y
+            width: available
+          - action:
+              character:
+                char: u
+            width: available
+          - action:
+              character:
+                char: i
+            width: available
+          - action:
+              character:
+                char: o
+            width: available
+          - action:
+              character:
+                char: p
+            width: available
+      - keys:
+          - action: none
+            width:
+              percentage: 0.05
+          - action:
+              character:
+                char: a
+            width: available
+          - action:
+              character:
+                char: s
+            width: available
+          - action:
+              character:
+                char: d
+            width: available
+          - action:
+              character:
+                char: f
+            width: available
+          - action:
+              character:
+                char: g
+            width: available
+          - action:
+              character:
+                char: h
+            width: available
+          - action:
+              character:
+                char: j
+            width: available
+          - action:
+              character:
+                char: k
+            width: available
+          - action:
+              character:
+                char: l
+            width: available
+          - action: none
+            width:
+              percentage: 0.05
+      - keys:
+          - action:
+              keyboardType: 哈拼国语西里尔直打键盘
+            width:
+              percentage: 0.13
+            label: Қа
+          - action: none
+            width:
+              percentage: 0.02
+          - action:
+              character:
+                char: z
+            width: available
+          - action:
+              character:
+                char: x
+            width: available
+          - action:
+              character:
+                char: c
+            width: available
+          - action:
+              character:
+                char: v
+            width: available
+          - action:
+              character:
+                char: b
+            width: available
+          - action:
+              character:
+                char: n
+            width: available
+          - action:
+              character:
+                char: m
+            width: available
+          - action: none
+            width:
+              percentage: 0.02
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType: numericNineGrid
+            width:
+              percentage: 0.2
+          - action:
+              keyboardType: emojis
+            width: available
+          - action: space
+            width:
+              percentage: 0.4
+          - action:
+              keyboardType: alphabetic
+            width: available
+          - action: enter
+            width:
+              percentage: 0.2
+    buttonInsets:
+      left: 3
+      bottom: 4
+      top: 8
+      right: 3
+  - name: 哈拼国语西里尔Qwerty键盘
+    isPrimary: false
+    rows:
+      - keys:
+          - action:
+              character:
+                char: q
+            width: available
+          - action:
+              character:
+                char: w
+            width: available
+          - action:
+              character:
+                char: e
+            width: available
+          - action:
+              character:
+                char: r
+            width: available
+          - action:
+              character:
+                char: t
+            width: available
+          - action:
+              character:
+                char: y
+            width: available
+          - action:
+              character:
+                char: u
+            width: available
+          - action:
+              character:
+                char: i
+            width: available
+          - action:
+              character:
+                char: o
+            width: available
+          - action:
+              character:
+                char: p
+            width: available
+      - keys:
+          - action: none
+            width:
+              percentage: 0.05
+          - action:
+              character:
+                char: a
+            width: available
+          - action:
+              character:
+                char: s
+            width: available
+          - action:
+              character:
+                char: d
+            width: available
+          - action:
+              character:
+                char: f
+            width: available
+          - action:
+              character:
+                char: g
+            width: available
+          - action:
+              character:
+                char: h
+            width: available
+          - action:
+              character:
+                char: j
+            width: available
+          - action:
+              character:
+                char: k
+            width: available
+          - action:
+              character:
+                char: l
+            width: available
+          - action: none
+            width:
+              percentage: 0.05
+      - keys:
+          - action:
+              keyboardType: 哈拼国语西里尔Qwerty直打键盘
+            width:
+              percentage: 0.13
+            label: Qa
+          - action: none
+            width:
+              percentage: 0.02
+          - action:
+              character:
+                char: z
+            width: available
+          - action:
+              character:
+                char: x
+            width: available
+          - action:
+              character:
+                char: c
+            width: available
+          - action:
+              character:
+                char: v
+            width: available
+          - action:
+              character:
+                char: b
+            width: available
+          - action:
+              character:
+                char: n
+            width: available
+          - action:
+              character:
+                char: m
+            width: available
+          - action: none
+            width:
+              percentage: 0.02
+          - action: backspace
+            width:
+              percentage: 0.13
+      - keys:
+          - action:
+              keyboardType: numericNineGrid
+            width:
+              percentage: 0.2
+          - action:
+              keyboardType: emojis
+            width: available
+          - action: space
+            width:
+              percentage: 0.4
+          - action:
+              character:
+                char: .
+            width: available
+          - action: enter
+            width:
+              percentage: 0.2
     buttonInsets:
       left: 3
       bottom: 4
